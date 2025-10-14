@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container {
+  margin-top: 70px;
+  background-color: aliceblue;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+
+  padding-block: 25px;
+  gap: 25px;
+}
+
+.counter {
+  background: linear-gradient(
+    25deg,
+    rgba(237, 221, 83, 1) 0%,
+    rgba(237, 221, 83, 1) 50%,
+    rgba(87, 199, 133, 1) 100%
+  );
+  border-radius: 30px;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+
+  margin-inline: 25px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.button {
+  font-size: 32px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.reset-button {
+  width: 120px;
+}
