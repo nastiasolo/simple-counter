@@ -5,7 +5,7 @@ A micro learning project built with HTML, CSS, and JavaScript.
 The goal of this project is to practice basic DOM manipulation and event handling by implementing a simple counter.
 The counter value cannot go below zero.
 
-Features:
+## Features:
 
 	•	Increment and decrement counter value
   
@@ -13,7 +13,7 @@ Features:
   
 	•	No frameworks or build tools
 
-## Preview
+## Preview: 
 
 <p align="center">
 <img src="./Screenshot.png" alt="Simple Counter" width="350px">
